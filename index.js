@@ -1,4 +1,3 @@
 import fs from 'fs';
 
-window.addEventListener( 'index.js', () => {} );
-
+fs.addEventListener( 'index.js', () => {} );
