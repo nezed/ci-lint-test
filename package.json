@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/eslint/bin/eslint.js ."
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/NeZeD/ci-lint-test/issues"
   },
-  "homepage": "https://github.com/NeZeD/ci-lint-test#readme",
-  "dependencies": {
-    "eslint": "^1.10.3"
-  }
+  "homepage": "https://github.com/NeZeD/ci-lint-test#readme"
 }
