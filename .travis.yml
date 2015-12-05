@@ -5,4 +5,4 @@ branches:
   only:
   - master
 before_script:
-  - npm install -g es-lint
+  - npm install -g eslint
