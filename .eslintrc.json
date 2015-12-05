@@ -1,21 +1,29 @@
 {
+    "extends": [
+        "eslint:recommended",
+        "yandex"
+    ],
     "rules": {
-        "indent": [
-            2,
-            4
-        ],
-        "quotes": [
-            2,
-            "single"
-        ],
-        "linebreak-style": [
-            2,
-            "unix"
-        ],
-        "semi": [
-            2,
-            "always"
-        ]
+        "indent": [ 2, 4 ],
+        "quotes": [ 2, "single" ],
+        "linebreak-style": [ 2, "unix" ],
+        "semi": [ 2, "always" ],
+        "valid-jsdoc": [ 2 ],
+        "block-scoped-var": [ 2 ],
+        "no-caller": [ 2 ],
+        "no-eq-null": [ 2 ],
+        "no-extend-native": [ 2 ],
+        "no-native-reassign": [ 2 ],
+        "no-multi-spaces": [ 2 ],
+        "space-infix-ops": [ 2 ],
+        "space-in-parens": [ 2, "always", { "exceptions": [ "empty" ] } ],
+        "space-return-throw-case": [ 2 ],
+        "no-param-reassign": [ 2, { "props": false } ],
+        "no-proto": [ 2 ],
+        "no-return-assign": [ 2, "always" ],
+        "no-catch-shadow": [ 2 ],
+        "global-require": [ 2 ],
+        "arrow-parens": [ 2 ]
     },
     "ecmaFeatures": {
         "modules": true
@@ -27,6 +35,5 @@
     "globals": {
         "window": false,
         "global": false
-    },
-    "extends": "eslint:recommended"
+    }
 }

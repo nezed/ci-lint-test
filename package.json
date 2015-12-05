@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NeZeD/ci-lint-test/issues"
   },
-  "homepage": "https://github.com/NeZeD/ci-lint-test#readme"
+  "homepage": "https://github.com/NeZeD/ci-lint-test#readme",
+  "dependencies": {
+    "eslint-config-yandex": "^1.0.5"
+  }
 }
